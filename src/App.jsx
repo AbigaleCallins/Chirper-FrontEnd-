@@ -33,7 +33,7 @@ const App = () => {
         <input class=" my-4 mx-4 px-4 py-4 row-3" type="text" value={username} onChange={handleUsernameChange} placeholder="Username">
         </input>
         <div>
-        <textarea class="my-4 mx-4 px-4 py-4 row-3" aria-placeholder='-- Chirp' value={message} onChange={handleMessageChange}></textarea>
+        <textarea class="my-4 mx-4 px-4 py-4 row-3" placeholder="- Chirp" aria-placeholder='-- Chirp' value={message} onChange={handleMessageChange}></textarea>
           <button class="btn btn-primary" onClick={handleChirpSubmit}>Chirp It!</button>
         </div>
       </div>

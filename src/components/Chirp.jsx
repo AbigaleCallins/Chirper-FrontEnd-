@@ -3,7 +3,7 @@ import React from 'react';
 
 const ChirpCard = ({ username, message, created }) => {
     return (
-        <span class="card d-block row-3">
+        <span class="card row-3">
             <div class="card-header">
                 {username}
             </div>
